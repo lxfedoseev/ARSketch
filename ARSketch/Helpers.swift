@@ -53,6 +53,38 @@ extension ARCamera.TrackingState: CustomStringConvertible {
       return "Relocalizing"
     }
   }
+  
+}
+
+extension ARCamera.TrackingState {
+  var localizedFeedback: String {
+    switch self {
+    // 1
+    case .normal:
+      return "Move around to map the environment."
+    // 2
+    case .notAvailable:
+      return "Tracking unavailable."
+    // 3
+    case .limited(.excessiveMotion):
+      return "Move the device more slowly."
+    // 4
+    case .limited(.insufficientFeatures):
+      return """
+      Point the device at an area with visible surface detail,
+      or improve lighting conditions.
+      """
+    // 5
+    case .limited(.relocalizing):
+      return """
+      Resuming session — move to where you
+      were when the session was interrupted.
+      """
+    // 6
+    case .limited(.initializing):
+      return "Initializing AR session."
+    }
+  }
 }
 
 extension UIViewController {

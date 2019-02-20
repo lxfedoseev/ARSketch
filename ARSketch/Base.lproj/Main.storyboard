@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -67,7 +67,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gK4-ES-wnn" customClass="StatusControlledButton" customModule="ARSketch" customModuleProvider="target">
-                                <rect key="frame" x="16" y="613" width="160" height="34"/>
+                                <rect key="frame" x="16.5" y="613" width="160" height="34"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="4F7-d9-yLq"/>
@@ -170,7 +170,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="xLr-7S-0PA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="34d-dZ-CmW"/>
-                            <constraint firstItem="gK4-ES-wnn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-11.5" id="3Zi-sl-Bwk"/>
+                            <constraint firstItem="gK4-ES-wnn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-11" id="3Zi-sl-Bwk"/>
                             <constraint firstItem="xLr-7S-0PA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5wF-Xw-RXH"/>
                             <constraint firstItem="OLq-s7-8s6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7C2-Dv-lOh"/>
                             <constraint firstItem="8xl-w2-m7F" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="7OM-0S-XMr"/>
