@@ -102,9 +102,9 @@
                                 <rect key="frame" x="16" y="139" width="112.5" height="200"/>
                             </imageView>
                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xLr-7S-0PA" userLabel="Mapping Status View">
-                                <rect key="frame" x="104.5" y="36" width="166.5" height="98"/>
+                                <rect key="frame" x="104" y="36" width="167" height="98"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Pjg-7H-ACi">
-                                    <rect key="frame" x="0.0" y="0.0" width="166.5" height="98"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="167" height="98"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mapping: Limited Tracking: Initializing" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdJ-lH-4T5">

@@ -19,6 +19,7 @@
 		93B5D7A9213637CA0053D6D0 /* StatusControlledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5D7A8213637CA0053D6D0 /* StatusControlledButton.swift */; };
 		93E0CF35214BFFB7002BBAF9 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E0CF34214BFFB7002BBAF9 /* Point.swift */; };
 		93E0CF37214BFFE0002BBAF9 /* ARLineAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E0CF36214BFFE0002BBAF9 /* ARLineAnchor.swift */; };
+		D9E366AE221F149B00C0FE62 /* PeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E366AD221F149B00C0FE62 /* PeerSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		93B5D7A8213637CA0053D6D0 /* StatusControlledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusControlledButton.swift; sourceTree = "<group>"; };
 		93E0CF34214BFFB7002BBAF9 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		93E0CF36214BFFE0002BBAF9 /* ARLineAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLineAnchor.swift; sourceTree = "<group>"; };
+		D9E366AD221F149B00C0FE62 /* PeerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				938E60F3214AAEFD0045B27C /* SnapshotAnchor.swift */,
 				93E0CF34214BFFB7002BBAF9 /* Point.swift */,
 				93E0CF36214BFFE0002BBAF9 /* ARLineAnchor.swift */,
+				D9E366AD221F149B00C0FE62 /* PeerSession.swift */,
 			);
 			path = ARSketch;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			files = (
 				93B5D7A521361C470053D6D0 /* SCNLineNode.swift in Sources */,
 				93B5D7A321361C2E0053D6D0 /* SCNVector3Helpers.swift in Sources */,
+				D9E366AE221F149B00C0FE62 /* PeerSession.swift in Sources */,
 				93B5D7A9213637CA0053D6D0 /* StatusControlledButton.swift in Sources */,
 				938E60F2214AAE430045B27C /* Helpers.swift in Sources */,
 				938E60F4214AAEFD0045B27C /* SnapshotAnchor.swift in Sources */,
